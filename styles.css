@@ -1,0 +1,61 @@
+quicksand-<uniquifier> {
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+}
+body {
+	background-color: black;
+	font-family: "Quicksand", sans-serif;
+}
+p {
+	font-size: 15px;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0%;
+	padding: 5px;
+	padding-top: 11px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	width: 480px;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: 5px;
+	font-family: "Quicksand", sans-serif;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgrey;
+	padding: 3px;
+	font-family: "Quicksand", sans-serif;
+}
